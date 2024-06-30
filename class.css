@@ -1,0 +1,303 @@
+
+*{
+   padding: 0;
+   margin: 0;
+}
+
+
+body {
+   background-color: rgb(71, 55, 83);
+}
+
+
+
+.kepala {
+   display: flex;
+   justify-content: space-between;
+   padding: 15px;
+   background-color: black;
+   position: sticky;
+   top: 0;
+   z-index: 9999;
+   
+}
+
+/* 
+img {
+   width: 40px;
+   border-radius: 50px; 
+} */
+
+.pertama {
+   display: flex;
+   list-style: none;
+   gap: 10px;
+   align-items: center;
+}
+
+.kedua img {
+   width: 45px;
+   border-radius: 50px;
+}
+
+.kedua {
+   display: flex;
+   align-items: center;
+   list-style: none;
+   gap: 20px;
+}
+
+
+.bar-one {
+   display: flex;
+   list-style: none;
+   align-items: center;
+   gap: 5px;
+}
+
+.bar-two {
+   display: flex;
+   list-style: none;
+   align-items: center;
+   gap: 5px;
+}
+
+.tool-bar {
+   display: flex;
+   gap: 15px;
+   padding: 15px;
+}
+
+.kotak {
+   /* border: 1px solid black; */
+   width: 250px;
+   border-radius: 5px;
+}
+
+.bawah {
+   margin-top: 120px;
+   border: 1px solid black;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+}
+
+.tool-bottom {
+   display: flex;
+   justify-content: right;
+   list-style: none;
+   margin-right: 15px;
+   gap: 15px;
+   padding: 15px;
+}
+
+.blok1 {
+   /* border: 1px solid red; */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /* background-image: url(pngtree-aesthetic-night-sky.jpg);
+   background-size: 150px; */
+   background-color: rgb(38, 108, 11);
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   padding: 10px;
+   background-image: url(https://i0.wp.com/diengcyber.com/wp-content/uploads/2023/01/c.png?resize=738%2C386&ssl=1);
+   background-size: 230px;
+   height: 100px;
+}
+
+
+.teks1 {
+   color:  rgb(8, 8, 21);
+   font: bold;
+}
+
+
+.blok2 {
+   /* border: 1px solid red; */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /* background-image: url(pngtree-aesthetic-night-sky.jpg);
+   background-size: 150px; */
+   background-color: rgb(41, 59, 76);
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   padding: 10px;
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyrU-QU5pijo76YtF5G55qnjXguveh-4iOH8_EEXUKkc9Tapnu9mMYAoOWKfrSPnZCXFQ&usqp=CAU);
+   background-size: cover;
+   height: 100px;
+}
+
+.blok3 {
+   /* border: 1px solid red; */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /* background-image: url(pngtree-aesthetic-night-sky.jpg);
+   background-size: 150px; */
+   background-color: rgb(41, 59, 76);
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   padding: 10px;
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtnwbQUFAp3jll5k01rdghnbqEMaDA9N3bjFBwSGuS22EdUV49bq4lYykQuqH38JbaySc&usqp=CAU);
+   background-size: 230px;
+   height: 100px;
+}
+
+.blok4 {
+   /* border: 1px solid red; */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /* background-image: url(pngtree-aesthetic-night-sky.jpg);
+   background-size: 150px; */
+   background-color: rgb(41, 59, 76);
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   padding: 10px;
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK9sNSffZ3X57Pa0Yfz4JqmlC8P0tgYkdzc8hPaf08LQdXUZ0UgK4uOybc6WoUkhcdEek&usqp=CAU);
+   background-size: 230px;
+   height: 100px;
+}
+
+.blok5 {
+   /* border: 1px solid red; */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /* background-image: url(pngtree-aesthetic-night-sky.jpg);
+   background-size: 150px; */
+   background-color: rgb(41, 59, 76);
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   padding: 10px;
+   background-image: url(https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg);
+   background-size: 230px;
+   height: 100px;
+}
+
+.blok6 {
+   /* border: 1px solid red; */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /* background-image: url(pngtree-aesthetic-night-sky.jpg);
+   background-size: 150px; */
+   background-color: rgb(41, 59, 76);
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   padding: 10px;
+   background-image: url(https://contentstatic.techgig.com/photo/86001236/coding-for-students-learn-with-these-7-apps.jpg?10556);
+   background-size: 230px;
+   height: 100px;
+}
+
+.blok7 {
+   /* border: 1px solid red; */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /* background-image: url(pngtree-aesthetic-night-sky.jpg);
+   background-size: 150px; */
+   background-color: rgb(41, 59, 76);
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   padding: 10px;
+   background-image: url(https://www.dictio.id/uploads/db3342/original/3X/0/b/0b3090f24eecf959631661e24e409b6b61786d62.jpeg);
+   background-size: 230px;
+   height: 100px;
+}
+
+
+.blok8 {
+   /* border: 1px solid red; */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /* background-image: url(pngtree-aesthetic-night-sky.jpg);
+   background-size: 150px; */
+   background-color: rgb(41, 59, 76);
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   padding: 10px;
+   background-image: url(https://blog.cakap.com/wp-content/uploads/2020/01/kata-bijak.jpg);
+   background-size: 250px;
+   height: 100px;
+}
+
+.prof img:hover {
+   width: 75px;
+}
+
+
+.prof img{
+  float: right;
+  margin-right: 20px;
+  position: relative;
+  bottom: 48px;
+  width: 70px;
+  border-radius: 50px;
+}
+
+.container {
+   background-color: rgb(71, 55, 83);
+}
+
+.bawah {
+   background-color: rgb(2, 0, 0);
+}
+
+.menu {
+   display: flex;
+   justify-content: space-evenly;
+   padding: 15px;
+}
+
+.menu-one {
+   display: flex;
+   justify-content: space-evenly;
+   padding: 15px;
+}
+
+h1 {
+   text-transform: capitalize;
+   color: white;
+}
+
+h3 {
+   text-transform: capitalize;
+   color: white;
+   font-size: 22px;
+}
+
+h4 {
+   text-transform: capitalize;
+   color: white;
+}
+
+
+h5 {
+   text-transform: capitalize;
+   color: white;
+   font-size: 15px;
+}
+
+.teks2{
+   text-transform: capitalize;
+   color: black;
+   font-size: 22px;
+}
+
+.bar-one li span {
+   color: white;
+}
+
+.bar-two li span {
+   color: white;
+}
+
+.kotak {
+   background-color: white;
+   border: 1px solid white;
+}

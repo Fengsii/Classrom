@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+
+   <style>
+      .container {
+         width: 475px;
+         border: 2px solid black;
+         margin: 10px auto;
+         padding: 5px;
+         box-sizing: border-box;  
+         display: flex; 
+         /* flex-direction: column; */
+         /* flex-wrap: wrap; */
+         /* flex-wrap: wrap-reverse; */
+         /* justify-content: center; */
+         
+         /* align-items: baseline; */
+         /* align-content: center; */
+         /* flex-direction: column-reverse; */
+      }
+      .container div {
+         width: 100px;
+         height: 100px;
+         background-color: rgb(30, 87, 231);
+         color: white;
+         font-size: 20px;
+         margin: 2px;
+      }
+
+      .container div.tiga {
+         font-size: 40px;
+      }
+
+      .satu {order: 3;}
+      .dua {order: 2}
+      /* .tiga {order: 6} */
+      .empat {order: 1}
+      /* .lima {order: 1;}
+      .enam {order: 2;}  */
+
+      .container div.satu {
+         flex: 5px;
+      }
+
+   </style>
+
+</head>
+<body>
+   <div class="container">
+      <div class="satu">1</div>
+      <div class="dua">2</div>
+      <div class="tiga">3</div>
+      <div class="empat">4</div>
+      <!-- <div class="lima">5</div>
+      <div class="enam">6</div> -->
+   </div>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Position & display Fles</title>
+   <style>
+
+      body {
+         height: 100px;
+      }
+
+      div {
+         width: 50px;
+         height: 50px;
+         margin: auto;
+      }
+      .container {
+      width: 150px;
+      height: 150px;
+      border: 3px solid red;
+      margin: 0 auto;
+      }
+
+      h1 {
+         text-align: center;
+      }
+      
+
+      .satu {
+      background-color: rgb(76, 97, 213);
+      }
+      .dua {
+      background-color: rgb(206, 239, 20);
+      /* position: relative;
+      bottom: 20px;
+      border-radius: 50px; */
+
+
+      /* position: absolute;
+      top: 10px;
+      left: 10px; */
+
+      position: fixed;
+      }
+      .tiga {
+      background-color: rgb(190, 142, 22);
+      }
+
+      /* pembatas untuk dispay flex bos */
+
+   .container1 {
+      width: 500px;
+      height: 110px;
+      border: 3px solid black;
+      margin: 10px auto;
+      padding: 5px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      /* gap: 50px; */
+   }
+   .container1 div {
+      width: 100px;
+      height: 100px;
+      background-color: rgb(30, 87, 231);
+      color: white;
+      font-size: 20px;
+      margin: 2px;
+   }
+
+
+   </style>
+</head>
+<body>
+   <h1>Position</h1>
+   <body>
+      <div class="container">
+         <div class="satu"></div>
+         <div class="dua"></div>
+         <div class="tiga"></div>
+      </div>
+
+   <br><br>
+
+   <h1>Display Flex Box</h1>
+   <div class="container1">
+      <div class="satu">1</div>
+      <div class="dua">2</div>
+      <div class="tiga">3</div>
+      <div class="empat">4</div>
+   </div>
+</body>
+</html>

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+   
+   <table border="1px" cellpadding="10px">
+      
+      <tr>
+         <td rowspan="2" style="background-color: yellow;">Bulan</td>
+         <td colspan="2" style="background-color: green;">Hasil Panen</td>
+         <tr>
+            <td>padi</td>
+            <td>kacang</td>
+         </tr>
+      </tr>
+
+      <tr>
+         <td>Januari</td>
+         <td>500Kg</td>
+         <td>231Kg</td>
+      </tr>
+
+      <tr>
+         <td style="background-color: rgb(0,0,255);">February</td>
+         <td>300Kg</td>
+         <td>247Kg</td>
+      </tr>
+
+      <tr>
+         <td>Maret</td>
+         <td>55Kg</td>
+         <td>26Kg</td>
+      </tr>
+
+      <tr>
+         <td>April</td>
+         <td>50Kg</td>
+         <td>89Kg</td>
+      </tr>
+
+   </table>
+
+<br><br><br><br>
+   <table border="1px" cellpadding="10px">
+      <tr>
+         <th rowspan="2">No</th>
+         <th rowspan="2">Nama Lengkap</th>
+         <th rowspan="2">Alamat</th>
+         <th colspan="2">Nilai</th>
+         <tr>
+            <th>Angka</th>
+            <th>Huruf</th>
+         </tr>
+      </tr>
+      <tr>
+         <td>1</td>
+         <td>Efengsi</td>
+         <td>Pekan baru</td>
+         <td>100</td>
+         <td>A</td>
+      </tr>
+      <tr>
+         <td>2</td>
+         <td>Ahmad Ramdhan</td>
+         <td>Pekan baru</td>
+         <td>100</td>
+         <td>A</td>
+      </tr>
+   </table>
+
+   <br><br><br>
+
+   <table border="2" style="border-collapse: collapse;">
+         <tr>
+            <td colspan="3">1</td>
+            <td rowspan="2">2</td>
+            <td>3</td>
+         </tr>
+         <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td rowspan="2">7</td>
+         </tr>
+         <tr>
+            <td colspan="4">8</td>
+         </tr> 
+   </table>
+
+   <br><br><br>
+
+   <table border="2" style="border-collapse: collapse;">
+      <tr>
+         <td>1</td>
+         <td>2</td>
+         <td>3</td>
+         <td>4</td>
+      </tr>
+      <tr>
+         <td>2</td>
+         <td colspan="2" rowspan="2">kosongkan</td>
+         <td>4</td>
+      </tr>
+      <tr>
+         <td>3</td>
+         <td>4</td>
+      </tr>
+      <tr>
+         <td>4</td>
+         <td>5</td>
+         <td>6</td>
+         <td>7</td>
+      </tr>
+   </table>
+
+   <br><br><br>
+
+   <table border="1px" style="border-collapse: collapse;">
+      <tr>
+         <th rowspan="4">A</th>
+         <th colspan="5">B</th>
+         <th rowspan="5" style="background-color: yellow;">C</th>
+         <th colspan="6">D</th>
+         <tr>
+            <td colspan="4">E</td>
+            <td>F</td>
+            <td rowspan="4">G</td>
+            <td colspan="4">H</td>
+            <td>I</td>
+            <td rowspan="3">J</td>
+         </tr>
+         <tr>
+            <td>K</td>
+            <td>L</td>
+            <td>M</td>
+            <td>N</td>
+            <td rowspan="3">O</td>
+            <td rowspan="3">AA</td>
+            <td rowspan="2">BB</td>
+            <td rowspan="3">OO</td>
+            <td rowspan="4">DD</td>
+         </tr>
+         <tr>
+            <td>P</td>
+            <td>Q</td>
+            <td rowspan="2">R</td>
+            <td>S</td>
+         </tr>
+      </tr>
+      <tr>
+         <td rowspan="2">S</td>
+         <td>T</td>
+         <td>U</td>
+         <td>SS</td>
+         <tr>
+            <td colspan="3">Arjun</td>
+            <td colspan="3">Efengsi</td>
+            <td colspan="3">Abu</td>
+         </tr>
+      </tr>
+   </table>
+
+   <br><br><br>
+
+   <!-- <style>
+      .oi {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+      }
+
+      .ap {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+      }
+
+      .p {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+      }
+
+      .l {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+      }
+
+      form {
+         align-items: center;
+      }
+
+   </style> -->
+
+   <form>
+      <h1>Form Registrasi</h1>
+      <fieldset style="width: 500px;">
+         <legend>Biodata</legend>
+      <div class="oi">
+         <label for="nama">Nama:</label>
+         <input type="text" name="nama">
+      </div>
+      <div class="ap">
+         <label for="nim">Nim:</label>
+         <input type="number" name="nim">
+      </div>
+      <div class="p">
+         <label for="tgl">Tanggal Lahir:</label>
+         <input type="date" name="tgl">
+      </div>
+      <div class="l">
+         <label for="alm">Alamat:</label>
+         <input type="text" name="alm">
+      </div>
+      
+      
+         <label for="jenis">Jenis Kelamin</label>
+         <input type="radio" name="laki">
+         <label for="laki">Laki-Laki</label>
+         <input type="radio" name="perempuan">
+         <label for="perempuan">Perempuan</label>
+      
+      </fieldset>
+
+      <fieldset>
+         <legend>User Acount</legend>
+         <label for="name">Username:</label>
+         <input type="text" name="name">
+         <label for="email">Email</label>
+         <input type="email" name="email">
+         <label for="password">Password</label>
+         <input type="password" name="password">
+         <label for="ul">Ulangi Password</label>
+         <input type="password" name="ul">
+      </fieldset>
+
+      <fieldset>
+         <legend>Resolusi Tahun Ini</legend>
+         <input type="checkbox" name="html">
+         <label for="html">Menguasai HTML</label>
+         <input type="checkbox" name="css">
+         <label for="css">Menguasai CSS</label>
+         <input type="checkbox" name="php">
+         <label for="php">Menguasai PHP</label>
+      </fieldset>
+      <br>
+      <button>Kirim data</button>
+
+   </form>
+
+   <br><br><br>
+
+  
+   </table>
+</table>
+
+
+<table border="1px" style="border-collapse: collapse;">
+   <tr style="background-color: orange">
+      <th rowspan="2">A</th>
+      <th colspan="2">B</th>
+      <th rowspan="2">C</th>
+      <tr>
+         <th>D</th>
+         <th>E</th>
+      </tr>
+   </tr>
+   <tr style="background-color: orange;">
+      <th colspan="2">F</th>
+      <th>G</th>
+      <th>H</th>
+   </tr>
+   <tr>
+      <th>I</th>
+      <th>J</th>
+      <th colspan="2">K</th>
+   </tr>
+   <tr style="background-color: orange;">
+      <th colspan="4">L</th>
+   </tr>
+   <tr>
+      <th colspan="4">M</th>
+   </tr>
+</table>
+
+
+</body>
+</html>
